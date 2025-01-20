@@ -1,0 +1,108 @@
+:root{
+    --primary-color: #e9f035;
+    --gradient: linear-gradient(to right top,  #ffc6a3, #e9f035);
+    --secondary-color: #1a1a1c;
+    --third-color: #deaa3a;
+
+}
+
+body{
+    height: 100vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color)
+}
+
+.container{
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: var(--gradient);
+}
+
+.logo-container{
+    background: var(--gradient);
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    padding: 40px 0 40px 0;
+}
+
+.logo-container img{
+    filter: invert(1);
+}
+
+.business-name{
+    padding: 10px;
+}
+
+.form-container{
+    padding: 10px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.labels{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.inputs input{
+    padding: 10px;
+    border: 0;
+    border-bottom: 3px  solid var(--primary-color);
+    background-color: #0000;
+    color: aliceblue;
+}
+
+#view-password-button{
+    width: 30px;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 330px;
+    background-color: #0000;
+    border: 0;
+}
+
+#enter-button{
+    border: 0;
+    border-radius: 15px;
+    height: 50px;
+    width: 370px;
+    background: var(--gradient);
+    font-size: large;
+    font-weight: 800;
+    margin: 0 16px 0 16px;
+}
+
+.forgive-password{
+    font-size: small;
+    margin: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+
+.forgive-password a{
+    color: var(--primary-color);
+}
+
+
+#enter-button:hover{
+    background: var(--third-color);
+    /* box-shadow: inset 1px 5px 5px #5438308b; */
+    cursor: pointer;
+    color: aliceblue
+}
+
