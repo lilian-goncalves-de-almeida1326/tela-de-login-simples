@@ -80,8 +80,9 @@ Este repositório contém a implementação de uma página de login básica, mas
 
 # Navegue até a pasta do projeto
  ```bash
-cd html
+cd html/index.html
 ```
+
 
 # Abra o arquivo index.html em um navegador
 ```
