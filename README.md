@@ -67,24 +67,20 @@ Este repositório contém a implementação de uma página de login básica, mas
 └── README.md             # Instruções e detalhes do projeto
 ```
 
-## 🚀 Como Rodar o Projeto Localmente
+# 🚀 Como Rodar o Projeto Localmente
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/lilian-goncalves-de-almeida1326/tela-de-login-simples.git
-   
-# Clone o repositório
+
+## Clone o repositório
   ```bash
   git clone https://github.com/lilian-goncalves-de-almeida1326/tela-de-login-simples.git
 ```
 
-# Navegue até a pasta do projeto
+## Navegue até a pasta do projeto
  ```bash
 cd html/index.html
 ```
 
-
-# Abra o arquivo index.html em um navegador
+## Abra o arquivo index.html em um navegador
 ```
 open index.html # Para macOS
 start index.html # Para Windows
@@ -92,6 +88,7 @@ xdg-open index.html # Para Linux
 ```
 
 Ou simplesmente arraste o arquivo para o navegador.
+
 # 🛠️ Tecnologias Utilizadas
 - HTML para a estrutura do formulário.
 - CSS para estilização e design responsivo.
